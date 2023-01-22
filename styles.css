@@ -128,5 +128,20 @@ aside>div>div>p a{
 main .fa-brands{
     color: black!important;
 }
-
-
+.modal input.form-control:focus:invalid, .offcanvas input.form-control:focus:invalid{
+    background-color: rgb(234, 130, 130);
+}
+.modal input.form-control:valid, .offcanvas input.form-control:focus:invalid{
+    background-color: rgb(115, 233, 115)
+}
+#note{
+    color: red;
+font-size: 1.3rem;
+text-decoration: none;
+}
+.modal .nav-link{
+    color: black!important;
+}
+.modal .nav-link:hover{
+    color: var(--quaternary-color)!important;
+}
